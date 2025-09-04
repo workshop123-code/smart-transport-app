@@ -1,0 +1,60 @@
+<header>
+  <h2>🌍 Goa Transit</h2>
+  <nav>
+    <a href="#journey">Journey Planner</a>
+    <a href="#tracking">Live Tracking</a>
+    <a href="#tickets">Tickets</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Travel Smart, Travel Green</h1>
+  <p>Plan your eco-friendly journey across Goa with buses & ferries</p>
+</section>
+
+<section id="journey" class="section">
+  <h2>🚍 Journey Planner</h2>
+  <form id="plannerForm">
+    <label>From:</label>
+    <input type="text" id="from" placeholder="Enter starting city">
+    <label>To:</label>
+    <input type="text" id="to" placeholder="Enter destination city">
+    <label>Travel Time:</label>
+    <input type="time" id="time">
+    <button type="button" onclick="planJourney()">Find Routes</button>
+  </form>
+  <div id="journeyResult" class="result" style="display:none;"></div>
+</section>
+
+<section id="tracking" class="section">
+  <h2>🛰️ Live Tracking</h2>
+  <p>View real-time location of buses and ferries</p>
+  <div class="map"></div>
+</section>
+
+<section id="tickets" class="section">
+  <h2>🎫 Book Tickets</h2>
+  <form>
+    <label>Select Route:</label>
+    <select>
+      <option>Panaji → Margao (Bus #25)</option>
+      <option>Panaji → Benaulim (Bus #12)</option>
+      <option>Ferry: Panaji → Betim</option>
+    </select>
+    <label>Travel Date:</label>
+    <input type="date">
+    <label>No. of Passengers:</label>
+    <input type="number" min="1" max="10" value="1">
+    <button>Proceed to Payment</button>
+  </form>
+</section>
+
+<section id="about" class="section">
+  <h2>ℹ️ About Project</h2>
+  <p>
+    Goa Transit is a smart transport solution promoting eco-friendly travel. 
+    By using real-time tracking, digital ticketing, and carbon footprint savings, 
+    it encourages citizens and tourists to choose public transport.
+  </p>
+</section>
