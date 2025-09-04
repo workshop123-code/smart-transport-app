@@ -1,5 +1,6 @@
 # 🚍 Smart Public Transport App
 
+
 A web-based solution to help users plan sustainable travel in cities by providing real-time bus/train availability, route details, and scheduling options.  
 This project is built for the **Lenovo Leap Innovation Challenge** under the theme of **Sustainable Cities**.
 
